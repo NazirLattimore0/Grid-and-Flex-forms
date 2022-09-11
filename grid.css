@@ -1,0 +1,45 @@
+body {
+  margin: 5px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(165, 165, 165);
+}
+
+.nav li {
+  justify-content: center;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.nav li a:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 50px 200px auto 100px;
+}
+
+@media (max-width: 600px) {
+  li a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  li a {
+    font-size: 1.25rem;
+  }
+}

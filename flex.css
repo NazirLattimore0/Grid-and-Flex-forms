@@ -1,0 +1,63 @@
+body {
+  margin: 5px;
+}
+
+.nav li {
+  justify-content: center;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.nav li a:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(165, 165, 165);
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 50px;
+}
+.form-row label {
+  padding: 0px;
+}
+.form-row input {
+  display: flex;
+}
+.form-row input,
+.form-row button {
+  padding: 5px;
+}
+.form-row button {
+  background: gray;
+  color: white;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  li a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  li a {
+    font-size: 1.25rem;
+  }
+}
